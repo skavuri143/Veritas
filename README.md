@@ -103,4 +103,4 @@ Final decisions:
 
 ## Contributing
 
-We welcome contributions! If you'd like to improve Sentinel, feel free to fork the repository, create a new branch, and submit a pull request. Please ensure that you write tests for any new functionality and that the existing tests pass.
+We welcome contributions! If you'd like to improve Veritas, feel free to fork the repository, create a new branch, and submit a pull request. Please ensure that you write tests for any new functionality and that the existing tests pass.
