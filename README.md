@@ -45,7 +45,6 @@ Veritas/
 │  ├─ explainability/
 │  └─ reporting/
 ├─ requirements.txt
-├─ governance_notes.md
 ├─ .gitignore
 └─ README.md
 ```
