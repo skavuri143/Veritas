@@ -1,0 +1,278 @@
+{
+  "dataset": "titanic",
+  "generated_at": "2026-02-19T01:32:55.331815+00:00",
+  "shape": {
+    "rows": 891,
+    "cols": 13
+  },
+  "columns": [
+    {
+      "name": "Pclass",
+      "dtype": "int64",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "min": 1,
+      "max": 3,
+      "mean": 2.308641975308642,
+      "std": 0.836071240977049,
+      "p50": 3.0,
+      "p95": 3.0
+    },
+    {
+      "name": "Sex",
+      "dtype": "object",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "nunique": 2,
+      "top_values": [
+        {
+          "value": "male",
+          "count": 577
+        },
+        {
+          "value": "female",
+          "count": 314
+        }
+      ]
+    },
+    {
+      "name": "Age",
+      "dtype": "float64",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "min": 0.42,
+      "max": 80.0,
+      "mean": 29.11242424242424,
+      "std": 13.304424074688162,
+      "p50": 26.0,
+      "p95": 54.0
+    },
+    {
+      "name": "SibSp",
+      "dtype": "int64",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "min": 0,
+      "max": 8,
+      "mean": 0.5230078563411896,
+      "std": 1.1027434322934317,
+      "p50": 0.0,
+      "p95": 3.0
+    },
+    {
+      "name": "Parch",
+      "dtype": "int64",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "min": 0,
+      "max": 6,
+      "mean": 0.38159371492704824,
+      "std": 0.8060572211299483,
+      "p50": 0.0,
+      "p95": 2.0
+    },
+    {
+      "name": "Fare",
+      "dtype": "float64",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "min": 0.0,
+      "max": 512.3292,
+      "mean": 32.204207968574636,
+      "std": 49.6934285971809,
+      "p50": 14.4542,
+      "p95": 112.07915
+    },
+    {
+      "name": "Embarked",
+      "dtype": "object",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "nunique": 3,
+      "top_values": [
+        {
+          "value": "S",
+          "count": 646
+        },
+        {
+          "value": "C",
+          "count": 168
+        },
+        {
+          "value": "Q",
+          "count": 77
+        }
+      ]
+    },
+    {
+      "name": "has_cabin",
+      "dtype": "int64",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "min": 0,
+      "max": 1,
+      "mean": 0.22895622895622897,
+      "std": 0.420396989069881,
+      "p50": 0.0,
+      "p95": 1.0
+    },
+    {
+      "name": "cabin_prefix",
+      "dtype": "object",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "nunique": 9,
+      "top_values": [
+        {
+          "value": "U",
+          "count": 687
+        },
+        {
+          "value": "C",
+          "count": 59
+        },
+        {
+          "value": "B",
+          "count": 47
+        },
+        {
+          "value": "D",
+          "count": 33
+        },
+        {
+          "value": "E",
+          "count": 32
+        },
+        {
+          "value": "A",
+          "count": 15
+        },
+        {
+          "value": "F",
+          "count": 13
+        },
+        {
+          "value": "G",
+          "count": 4
+        },
+        {
+          "value": "T",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "dtype": "object",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "nunique": 17,
+      "top_values": [
+        {
+          "value": "Mr",
+          "count": 517
+        },
+        {
+          "value": "Miss",
+          "count": 182
+        },
+        {
+          "value": "Mrs",
+          "count": 125
+        },
+        {
+          "value": "Master",
+          "count": 40
+        },
+        {
+          "value": "Dr",
+          "count": 7
+        },
+        {
+          "value": "Rev",
+          "count": 6
+        },
+        {
+          "value": "Mlle",
+          "count": 2
+        },
+        {
+          "value": "Major",
+          "count": 2
+        },
+        {
+          "value": "Col",
+          "count": 2
+        },
+        {
+          "value": "the Countess",
+          "count": 1
+        },
+        {
+          "value": "Capt",
+          "count": 1
+        },
+        {
+          "value": "Ms",
+          "count": 1
+        },
+        {
+          "value": "Sir",
+          "count": 1
+        },
+        {
+          "value": "Lady",
+          "count": 1
+        },
+        {
+          "value": "Mme",
+          "count": 1
+        },
+        {
+          "value": "Don",
+          "count": 1
+        },
+        {
+          "value": "Jonkheer",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "FamilySize",
+      "dtype": "int64",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "min": 1,
+      "max": 11,
+      "mean": 1.904601571268238,
+      "std": 1.6134585413550873,
+      "p50": 1.0,
+      "p95": 6.0
+    },
+    {
+      "name": "IsAlone",
+      "dtype": "int64",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "min": 0,
+      "max": 1,
+      "mean": 0.6026936026936027,
+      "std": 0.4896152299826248,
+      "p50": 1.0,
+      "p95": 1.0
+    },
+    {
+      "name": "Survived",
+      "dtype": "int64",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "min": 0,
+      "max": 1,
+      "mean": 0.3838383838383838,
+      "std": 0.4865924542648575,
+      "p50": 0.0,
+      "p95": 1.0
+    }
+  ]
+}

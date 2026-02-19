@@ -1,0 +1,23 @@
+fraud:
+  performance:
+    min_pr_auc: 0.20
+    min_f1: 0.20
+  drift:
+    max_psi_any_feature: 0.25
+  fairness:
+    max_tpr_gap: 0.12     
+    max_fpr_gap: 0.05
+  explainability:
+    min_topk_overlap: 0.50
+
+titanic:
+  performance:
+    min_auc: 0.75
+    min_f1: 0.65
+  drift:
+    max_psi_any_feature: 0.25
+  fairness:
+    max_tpr_gap: 0.20     
+    max_fpr_gap: 0.20
+  explainability:
+    min_topk_overlap: 0.50

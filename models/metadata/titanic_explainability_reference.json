@@ -1,0 +1,106 @@
+{
+  "dataset": "titanic",
+  "created_at": "2026-02-19T01:33:35.595914+00:00",
+  "top_features": [
+    {
+      "feature": "num__Fare",
+      "mean_abs_shap": 1.183105067428352
+    },
+    {
+      "feature": "cat__title_Mr",
+      "mean_abs_shap": 1.1105024876131961
+    },
+    {
+      "feature": "num__Age",
+      "mean_abs_shap": 0.7930943692463353
+    },
+    {
+      "feature": "cat__Sex_female",
+      "mean_abs_shap": 0.6689091124486727
+    },
+    {
+      "feature": "num__Pclass",
+      "mean_abs_shap": 0.5179332771323744
+    },
+    {
+      "feature": "num__FamilySize",
+      "mean_abs_shap": 0.38899137202668993
+    },
+    {
+      "feature": "cat__Embarked_S",
+      "mean_abs_shap": 0.27489077568578046
+    },
+    {
+      "feature": "cat__title_Mrs",
+      "mean_abs_shap": 0.24852674481228207
+    },
+    {
+      "feature": "num__has_cabin",
+      "mean_abs_shap": 0.21015671985562984
+    },
+    {
+      "feature": "cat__cabin_prefix_E",
+      "mean_abs_shap": 0.1845577986250871
+    },
+    {
+      "feature": "cat__title_Master",
+      "mean_abs_shap": 0.14429349491122126
+    },
+    {
+      "feature": "num__Parch",
+      "mean_abs_shap": 0.1220028910747434
+    },
+    {
+      "feature": "num__SibSp",
+      "mean_abs_shap": 0.09389251332876489
+    },
+    {
+      "feature": "cat__cabin_prefix_U",
+      "mean_abs_shap": 0.07295028739588992
+    },
+    {
+      "feature": "cat__cabin_prefix_B",
+      "mean_abs_shap": 0.06644975494532815
+    },
+    {
+      "feature": "cat__Sex_male",
+      "mean_abs_shap": 0.05841494498936372
+    },
+    {
+      "feature": "cat__cabin_prefix_C",
+      "mean_abs_shap": 0.033597981955717955
+    },
+    {
+      "feature": "cat__cabin_prefix_D",
+      "mean_abs_shap": 0.030325167372696426
+    },
+    {
+      "feature": "cat__Embarked_C",
+      "mean_abs_shap": 0.01777156637424385
+    },
+    {
+      "feature": "cat__Embarked_Q",
+      "mean_abs_shap": 0.017259326423229925
+    },
+    {
+      "feature": "cat__title_Miss",
+      "mean_abs_shap": 0.0165940799885492
+    },
+    {
+      "feature": "num__IsAlone",
+      "mean_abs_shap": 0.004920127610401913
+    },
+    {
+      "feature": "cat__title_Ms",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "cat__title_Mlle",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "cat__title_Major",
+      "mean_abs_shap": 0.0
+    }
+  ]
+}

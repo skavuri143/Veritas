@@ -1,0 +1,11 @@
+fraud:
+  protected_groups:
+    - name: gender
+      column: gender
+
+titanic:
+  protected_groups:
+    - name: sex
+      column: Sex
+    - name: pclass
+      column: Pclass

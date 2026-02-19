@@ -1,0 +1,106 @@
+{
+  "dataset": "fraud",
+  "created_at": "2026-02-19T01:33:25.608800+00:00",
+  "top_features": [
+    {
+      "feature": "num__amt",
+      "mean_abs_shap": 0.8102502973889214
+    },
+    {
+      "feature": "cat__category_gas_transport",
+      "mean_abs_shap": 0.4291965006214387
+    },
+    {
+      "feature": "num__trans_hour",
+      "mean_abs_shap": 0.39589746301096496
+    },
+    {
+      "feature": "num__customer_age",
+      "mean_abs_shap": 0.16765908424915182
+    },
+    {
+      "feature": "cat__category_grocery_pos",
+      "mean_abs_shap": 0.10895909195739778
+    },
+    {
+      "feature": "cat__category_food_dining",
+      "mean_abs_shap": 0.09468999338064334
+    },
+    {
+      "feature": "num__city_pop",
+      "mean_abs_shap": 0.0470625956117804
+    },
+    {
+      "feature": "cat__state_GA",
+      "mean_abs_shap": 0.04258054340928779
+    },
+    {
+      "feature": "cat__category_shopping_net",
+      "mean_abs_shap": 0.03544862218406749
+    },
+    {
+      "feature": "cat__gender_F",
+      "mean_abs_shap": 0.02971246450272156
+    },
+    {
+      "feature": "cat__category_entertainment",
+      "mean_abs_shap": 0.025702194909024964
+    },
+    {
+      "feature": "cat__category_misc_pos",
+      "mean_abs_shap": 0.024039617781164136
+    },
+    {
+      "feature": "cat__category_grocery_net",
+      "mean_abs_shap": 0.012140535607971252
+    },
+    {
+      "feature": "cat__category_home",
+      "mean_abs_shap": 0.011785260081224838
+    },
+    {
+      "feature": "cat__gender_M",
+      "mean_abs_shap": 0.00924880168995122
+    },
+    {
+      "feature": "cat__category_personal_care",
+      "mean_abs_shap": 0.00844193507165881
+    },
+    {
+      "feature": "cat__amt_bucket_10-50",
+      "mean_abs_shap": 0.008161246587410577
+    },
+    {
+      "feature": "num__unix_time",
+      "mean_abs_shap": 0.007399929383080443
+    },
+    {
+      "feature": "cat__amt_bucket_200-1000",
+      "mean_abs_shap": 0.0072212272163014865
+    },
+    {
+      "feature": "cat__category_kids_pets",
+      "mean_abs_shap": 0.006439392852080069
+    },
+    {
+      "feature": "cat__job_OTHER",
+      "mean_abs_shap": 0.0033684028255892957
+    },
+    {
+      "feature": "num__lat",
+      "mean_abs_shap": 0.0033327938922936957
+    },
+    {
+      "feature": "cat__category_travel",
+      "mean_abs_shap": 0.002861516392435878
+    },
+    {
+      "feature": "cat__category_shopping_pos",
+      "mean_abs_shap": 0.002304372803792357
+    },
+    {
+      "feature": "num__long",
+      "mean_abs_shap": 0.0022900082028191565
+    }
+  ]
+}

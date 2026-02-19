@@ -1,0 +1,657 @@
+{
+  "dataset": "fraud",
+  "generated_at": "2026-02-19T01:32:55.196595+00:00",
+  "shape": {
+    "rows": 1296675,
+    "cols": 22
+  },
+  "columns": [
+    {
+      "name": "merchant",
+      "dtype": "object",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "nunique": 51,
+      "top_values": [
+        {
+          "value": "OTHER",
+          "count": 1158041
+        },
+        {
+          "value": "fraud_Kilback LLC",
+          "count": 4403
+        },
+        {
+          "value": "fraud_Cormier LLC",
+          "count": 3649
+        },
+        {
+          "value": "fraud_Schumm PLC",
+          "count": 3634
+        },
+        {
+          "value": "fraud_Kuhn LLC",
+          "count": 3510
+        },
+        {
+          "value": "fraud_Boyer PLC",
+          "count": 3493
+        },
+        {
+          "value": "fraud_Dickinson Ltd",
+          "count": 3434
+        },
+        {
+          "value": "fraud_Cummerata-Jones",
+          "count": 2736
+        },
+        {
+          "value": "fraud_Kutch LLC",
+          "count": 2734
+        },
+        {
+          "value": "fraud_Olson, Becker and Koch",
+          "count": 2723
+        },
+        {
+          "value": "fraud_Stroman, Hudson and Erdman",
+          "count": 2721
+        },
+        {
+          "value": "fraud_Rodriguez Group",
+          "count": 2716
+        },
+        {
+          "value": "fraud_Jenkins, Hauck and Friesen",
+          "count": 2705
+        },
+        {
+          "value": "fraud_Erdman-Kertzmann",
+          "count": 2705
+        },
+        {
+          "value": "fraud_Kling Inc",
+          "count": 2687
+        },
+        {
+          "value": "fraud_Connelly, Reichert and Fritsch",
+          "count": 2684
+        },
+        {
+          "value": "fraud_Friesen-Stamm",
+          "count": 2680
+        },
+        {
+          "value": "fraud_Prohaska-Murray",
+          "count": 2679
+        },
+        {
+          "value": "fraud_Huels-Hahn",
+          "count": 2678
+        },
+        {
+          "value": "fraud_Berge LLC",
+          "count": 2677
+        }
+      ]
+    },
+    {
+      "name": "category",
+      "dtype": "object",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "nunique": 14,
+      "top_values": [
+        {
+          "value": "gas_transport",
+          "count": 131659
+        },
+        {
+          "value": "grocery_pos",
+          "count": 123638
+        },
+        {
+          "value": "home",
+          "count": 123115
+        },
+        {
+          "value": "shopping_pos",
+          "count": 116672
+        },
+        {
+          "value": "kids_pets",
+          "count": 113035
+        },
+        {
+          "value": "shopping_net",
+          "count": 97543
+        },
+        {
+          "value": "entertainment",
+          "count": 94014
+        },
+        {
+          "value": "food_dining",
+          "count": 91461
+        },
+        {
+          "value": "personal_care",
+          "count": 90758
+        },
+        {
+          "value": "health_fitness",
+          "count": 85879
+        },
+        {
+          "value": "misc_pos",
+          "count": 79655
+        },
+        {
+          "value": "misc_net",
+          "count": 63287
+        },
+        {
+          "value": "grocery_net",
+          "count": 45452
+        },
+        {
+          "value": "travel",
+          "count": 40507
+        }
+      ]
+    },
+    {
+      "name": "amt",
+      "dtype": "float64",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "min": 1.0,
+      "max": 28948.9,
+      "mean": 70.35103545607033,
+      "std": 160.31603857152774,
+      "p50": 47.52,
+      "p95": 196.31
+    },
+    {
+      "name": "gender",
+      "dtype": "object",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "nunique": 2,
+      "top_values": [
+        {
+          "value": "F",
+          "count": 709863
+        },
+        {
+          "value": "M",
+          "count": 586812
+        }
+      ]
+    },
+    {
+      "name": "city",
+      "dtype": "object",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "nunique": 51,
+      "top_values": [
+        {
+          "value": "OTHER",
+          "count": 1112355
+        },
+        {
+          "value": "Birmingham",
+          "count": 5617
+        },
+        {
+          "value": "San Antonio",
+          "count": 5130
+        },
+        {
+          "value": "Utica",
+          "count": 5105
+        },
+        {
+          "value": "Phoenix",
+          "count": 5075
+        },
+        {
+          "value": "Meridian",
+          "count": 5060
+        },
+        {
+          "value": "Thomas",
+          "count": 4634
+        },
+        {
+          "value": "Conway",
+          "count": 4613
+        },
+        {
+          "value": "Cleveland",
+          "count": 4604
+        },
+        {
+          "value": "Warren",
+          "count": 4599
+        },
+        {
+          "value": "Houston",
+          "count": 4168
+        },
+        {
+          "value": "Burbank",
+          "count": 4159
+        },
+        {
+          "value": "Naples",
+          "count": 4155
+        },
+        {
+          "value": "Arcadia",
+          "count": 4096
+        },
+        {
+          "value": "Indianapolis",
+          "count": 4073
+        },
+        {
+          "value": "Brandon",
+          "count": 4044
+        },
+        {
+          "value": "Fulton",
+          "count": 3977
+        },
+        {
+          "value": "Lahoma",
+          "count": 3646
+        },
+        {
+          "value": "Allentown",
+          "count": 3639
+        },
+        {
+          "value": "Lakeland",
+          "count": 3635
+        }
+      ]
+    },
+    {
+      "name": "state",
+      "dtype": "object",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "nunique": 51,
+      "top_values": [
+        {
+          "value": "TX",
+          "count": 94876
+        },
+        {
+          "value": "NY",
+          "count": 83501
+        },
+        {
+          "value": "PA",
+          "count": 79847
+        },
+        {
+          "value": "CA",
+          "count": 56360
+        },
+        {
+          "value": "OH",
+          "count": 46480
+        },
+        {
+          "value": "MI",
+          "count": 46154
+        },
+        {
+          "value": "IL",
+          "count": 43252
+        },
+        {
+          "value": "FL",
+          "count": 42671
+        },
+        {
+          "value": "AL",
+          "count": 40989
+        },
+        {
+          "value": "MO",
+          "count": 38403
+        },
+        {
+          "value": "MN",
+          "count": 31714
+        },
+        {
+          "value": "AR",
+          "count": 31127
+        },
+        {
+          "value": "NC",
+          "count": 30266
+        },
+        {
+          "value": "WI",
+          "count": 29368
+        },
+        {
+          "value": "VA",
+          "count": 29250
+        },
+        {
+          "value": "SC",
+          "count": 29190
+        },
+        {
+          "value": "KY",
+          "count": 28475
+        },
+        {
+          "value": "IN",
+          "count": 27580
+        },
+        {
+          "value": "IA",
+          "count": 26985
+        },
+        {
+          "value": "OK",
+          "count": 26671
+        }
+      ]
+    },
+    {
+      "name": "lat",
+      "dtype": "float64",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "min": 20.0271,
+      "max": 66.6933,
+      "mean": 38.53762161489965,
+      "std": 5.075808438803932,
+      "p50": 39.3543,
+      "p95": 45.8433
+    },
+    {
+      "name": "long",
+      "dtype": "float64",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "min": -165.6723,
+      "max": -67.9503,
+      "mean": -90.22633537864147,
+      "std": 13.759076946486312,
+      "p50": -87.4769,
+      "p95": -73.5112
+    },
+    {
+      "name": "city_pop",
+      "dtype": "int64",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "min": 23,
+      "max": 2906700,
+      "mean": 88824.44056297839,
+      "std": 301956.360688751,
+      "p50": 2456.0,
+      "p95": 525713.0
+    },
+    {
+      "name": "job",
+      "dtype": "object",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "nunique": 51,
+      "top_values": [
+        {
+          "value": "OTHER",
+          "count": 970465
+        },
+        {
+          "value": "Film/video editor",
+          "count": 9779
+        },
+        {
+          "value": "Exhibition designer",
+          "count": 9199
+        },
+        {
+          "value": "Naval architect",
+          "count": 8684
+        },
+        {
+          "value": "Surveyor, land/geomatics",
+          "count": 8680
+        },
+        {
+          "value": "Materials engineer",
+          "count": 8270
+        },
+        {
+          "value": "Designer, ceramics/pottery",
+          "count": 8225
+        },
+        {
+          "value": "Systems developer",
+          "count": 7700
+        },
+        {
+          "value": "IT trainer",
+          "count": 7679
+        },
+        {
+          "value": "Financial adviser",
+          "count": 7659
+        },
+        {
+          "value": "Environmental consultant",
+          "count": 7547
+        },
+        {
+          "value": "Chartered public finance accountant",
+          "count": 7210
+        },
+        {
+          "value": "Scientist, audiological",
+          "count": 7174
+        },
+        {
+          "value": "Chief Executive Officer",
+          "count": 7172
+        },
+        {
+          "value": "Copywriter, advertising",
+          "count": 7146
+        },
+        {
+          "value": "Comptroller",
+          "count": 6730
+        },
+        {
+          "value": "Sub",
+          "count": 6701
+        },
+        {
+          "value": "Podiatrist",
+          "count": 6653
+        },
+        {
+          "value": "Agricultural consultant",
+          "count": 6642
+        },
+        {
+          "value": "Paramedic",
+          "count": 6635
+        }
+      ]
+    },
+    {
+      "name": "unix_time",
+      "dtype": "int64",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "min": 1325376018,
+      "max": 1371816817,
+      "mean": 1349243636.7261226,
+      "std": 12841278.423359346,
+      "p50": 1349249747.0,
+      "p95": 1369830595.4
+    },
+    {
+      "name": "merch_lat",
+      "dtype": "float64",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "min": 19.027785,
+      "max": 67.510267,
+      "mean": 38.53733804469971,
+      "std": 5.109788369679177,
+      "p50": 39.36568,
+      "p95": 46.0035301
+    },
+    {
+      "name": "merch_long",
+      "dtype": "float64",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "min": -166.671242,
+      "max": -66.950902,
+      "mean": -90.22646479897277,
+      "std": 13.77109056479242,
+      "p50": -87.43839200000001,
+      "p95": -73.35421790000001
+    },
+    {
+      "name": "trans_hour",
+      "dtype": "int64",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "min": 0,
+      "max": 23,
+      "mean": 12.804857809397111,
+      "std": 6.817823899187188,
+      "p50": 14.0,
+      "p95": 23.0
+    },
+    {
+      "name": "trans_dow",
+      "dtype": "int64",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "min": 0,
+      "max": 6,
+      "mean": 3.0706036593595156,
+      "std": 2.1981525547402727,
+      "p50": 3.0,
+      "p95": 6.0
+    },
+    {
+      "name": "trans_month",
+      "dtype": "int64",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "min": 1,
+      "max": 12,
+      "mean": 6.142149729114851,
+      "std": 3.4177033080259647,
+      "p50": 6.0,
+      "p95": 12.0
+    },
+    {
+      "name": "is_weekend",
+      "dtype": "int64",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "min": 0,
+      "max": 1,
+      "mean": 0.34822603967840826,
+      "std": 0.47640827029379607,
+      "p50": 0.0,
+      "p95": 1.0
+    },
+    {
+      "name": "customer_age",
+      "dtype": "float64",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "min": 13.921971252566735,
+      "max": 95.63860369609856,
+      "mean": 45.996399483663296,
+      "std": 17.39402174470778,
+      "p50": 43.969883641341546,
+      "p95": 79.63039014373716
+    },
+    {
+      "name": "geo_dist_km",
+      "dtype": "float64",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "min": 0.022254515638533652,
+      "max": 152.11717310595034,
+      "mean": 76.11465060395156,
+      "std": 29.116934511278163,
+      "p50": 78.2317512923315,
+      "p95": 120.49539279561496
+    },
+    {
+      "name": "log_amt",
+      "dtype": "float64",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "min": 0.6931471805599453,
+      "max": 10.273322028763742,
+      "mean": 3.533470433220325,
+      "std": 1.2894477022465518,
+      "p50": 3.8819760840758493,
+      "p95": 5.284776095981369
+    },
+    {
+      "name": "amt_bucket",
+      "dtype": "object",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "nunique": 5,
+      "top_values": [
+        {
+          "value": "50-200",
+          "count": 562452
+        },
+        {
+          "value": "10-50",
+          "count": 336370
+        },
+        {
+          "value": "<=10",
+          "count": 335929
+        },
+        {
+          "value": "200-1000",
+          "count": 57988
+        },
+        {
+          "value": ">1000",
+          "count": 3936
+        }
+      ]
+    },
+    {
+      "name": "is_fraud",
+      "dtype": "int64",
+      "missing_count": 0,
+      "missing_ratio": 0.0,
+      "min": 0,
+      "max": 1,
+      "mean": 0.005788651743883394,
+      "std": 0.07586268973125164,
+      "p50": 0.0,
+      "p95": 0.0
+    }
+  ]
+}

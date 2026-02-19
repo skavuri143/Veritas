@@ -1,0 +1,26 @@
+{
+  "fraud": {
+    "dataset": "fraud",
+    "decisions": [
+      {
+        "status": "PASS",
+        "reason": "All gates satisfied"
+      }
+    ],
+    "final": "PASS"
+  },
+  "titanic": {
+    "dataset": "titanic",
+    "decisions": [
+      {
+        "status": "WARN",
+        "reason": "High TPR gap across groups (equal opportunity)",
+        "details": {
+          "tpr_gap": 0.3786360698125404,
+          "group": "Sex"
+        }
+      }
+    ],
+    "final": "WARN"
+  }
+}

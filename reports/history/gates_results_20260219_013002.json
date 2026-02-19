@@ -1,0 +1,12 @@
+{
+  "fraud": {
+    "dataset": "fraud",
+    "decisions": [
+      {
+        "status": "PASS",
+        "reason": "All gates satisfied"
+      }
+    ],
+    "final": "PASS"
+  }
+}

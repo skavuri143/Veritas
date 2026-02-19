@@ -1,0 +1,40 @@
+{
+  "dataset": "fraud",
+  "target": "is_fraud",
+  "rows": 1296675,
+  "features": [
+    "merchant",
+    "category",
+    "amt",
+    "gender",
+    "city",
+    "state",
+    "lat",
+    "long",
+    "city_pop",
+    "job",
+    "unix_time",
+    "merch_lat",
+    "merch_long",
+    "trans_hour",
+    "trans_dow",
+    "trans_month",
+    "is_weekend",
+    "customer_age",
+    "geo_dist_km",
+    "log_amt",
+    "amt_bucket"
+  ],
+  "baseline_metrics": {
+    "auc": 0.5242269017559429,
+    "f1": 0.0,
+    "pr_auc": 0.006701925715926451
+  },
+  "champion_metrics": {
+    "auc": 0.9914245704272477,
+    "f1": 0.8688465684513116,
+    "pr_auc": 0.908086478964424
+  },
+  "threshold": 0.5,
+  "seed": 42
+}

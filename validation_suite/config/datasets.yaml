@@ -1,0 +1,13 @@
+paths:
+  fraud_raw: "data/raw/fraudTrain.csv"
+  titanic_raw: "data/raw/Titanic-Dataset.csv"
+
+processed:
+  fraud_X: "data/processed/fraud_features.parquet"
+  fraud_y: "data/processed/fraud_labels.parquet"
+  titanic_X: "data/processed/titanic_features.parquet"
+  titanic_y: "data/processed/titanic_labels.parquet"
+
+leakage_forbidden:
+  fraud: ["is_fraud", "trans_num", "cc_num"]
+  titanic: ["Survived", "PassengerId", "Name"]

@@ -1,0 +1,31 @@
+{
+  "dataset": "titanic",
+  "target": "Survived",
+  "rows": 891,
+  "features": [
+    "Pclass",
+    "Sex",
+    "Age",
+    "SibSp",
+    "Parch",
+    "Fare",
+    "Embarked",
+    "has_cabin",
+    "cabin_prefix",
+    "title",
+    "FamilySize",
+    "IsAlone"
+  ],
+  "baseline_metrics": {
+    "auc": 0.8674571805006588,
+    "f1": 0.7910447761194029,
+    "pr_auc": 0.8304597411461832
+  },
+  "champion_metrics": {
+    "auc": 0.8276021080368906,
+    "f1": 0.7681159420289855,
+    "pr_auc": 0.8037871273392196
+  },
+  "threshold": 0.5,
+  "seed": 42
+}
