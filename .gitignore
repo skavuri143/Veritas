@@ -1,22 +1,8 @@
-# Python
+data/raw/
+data/processed/
+models/champion/
+reports/history/
+reports/latest/
+.venv/
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-.venv/
-.env
-
-# # Data 
-# data/raw/
-# data/processed/
-
-# # Models + Reports (
-# reports/history/
-# reports/latest/gates_results.json
-
-# # OS
-# .DS_Store
-# Thumbs.db
-
-# # VSCode
-# .vscode/*.log
